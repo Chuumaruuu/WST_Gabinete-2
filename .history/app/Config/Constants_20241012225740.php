@@ -80,7 +80,7 @@ defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125);    // highest a
 
 defined('BASEURL')             || define('BASEURL', "http://localhost/WST_Gabinete-2/");
 defined('CSS')                 || define('CSS', BASEURL);
-defined('JS')                  || define('JS', BASEURL);
+defined('JS')                  || define('JS', BASEURL;
 defined('IMG')                 || define('IMG', BASEURL);
 
 /**

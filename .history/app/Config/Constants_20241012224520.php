@@ -79,9 +79,9 @@ defined('EXIT__AUTO_MIN')      || define('EXIT__AUTO_MIN', 9);      // lowest au
 defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125);    // highest automatically-assigned error code
 
 defined('BASEURL')             || define('BASEURL', "http://localhost/WST_Gabinete-2/");
-defined('CSS')                 || define('CSS', BASEURL);
-defined('JS')                  || define('JS', BASEURL);
-defined('IMG')                 || define('IMG', BASEURL);
+defined('CSS')                 || define('CSS', "http://localhost/WST_Gabinete-2/");
+defined('JS')                  || define('JS', "http://localhost/WST_Gabinete-2/");
+defined('IMG')             || define('IMG', "http://localhost/WST_Gabinete-2/");
 
 /**
  * @deprecated Use \CodeIgniter\Events\Events::PRIORITY_LOW instead.
