@@ -21,6 +21,6 @@ class Home extends BaseController
 
     public function catalog(): string
     {
-        return view('product_catalog');
+        return view('about');
     }
 }
