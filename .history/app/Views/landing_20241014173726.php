@@ -1,0 +1,1 @@
+<?= $this->include('components/main_layout') ?>
