@@ -1,0 +1,21 @@
+* {
+    background-color: beige;
+    color: brown;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    te
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+    .nav{
+        display: flex;
+        gap: 2rem;
+    }
+}

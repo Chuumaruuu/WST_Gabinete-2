@@ -1,0 +1,16 @@
+* {
+    background-color: beige;
+    color: brown;
+    margin: 0;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+    .nav{
+        display: flex;
+        gap: 2rem;
+    }
+}
