@@ -81,8 +81,7 @@ defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125);    // highest a
 defined('BASEURL')             || define('BASEURL', "http://localhost/WST_Gabinete-2/");
 defined('CSS')                 || define('CSS', BASEURL.'public/assets/css/');
 defined('JS')                  || define('JS', BASEURL.'public/assets/js/');
-defined('IMG')                 || define('IMG', BASEURL.'public/assets/img/');
-defined('VENDOR')              || define('VENDOR', BASEURL . 'public/assets/vendor/');
+defined('IMG')                 || define('IMG', BASEURL.'public/img/');
 
 /**
  * @deprecated Use \CodeIgniter\Events\Events::PRIORITY_LOW instead.

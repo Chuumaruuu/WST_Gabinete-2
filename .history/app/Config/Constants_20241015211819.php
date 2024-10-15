@@ -82,7 +82,6 @@ defined('BASEURL')             || define('BASEURL', "http://localhost/WST_Gabine
 defined('CSS')                 || define('CSS', BASEURL.'public/assets/css/');
 defined('JS')                  || define('JS', BASEURL.'public/assets/js/');
 defined('IMG')                 || define('IMG', BASEURL.'public/assets/img/');
-defined('VENDOR')              || define('VENDOR', BASEURL . 'public/assets/vendor/');
 
 /**
  * @deprecated Use \CodeIgniter\Events\Events::PRIORITY_LOW instead.

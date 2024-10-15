@@ -7,3 +7,4 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::landing');
 $routes->get('landing','Home::landing');
+$routes->get('catalog','Home::catalog');

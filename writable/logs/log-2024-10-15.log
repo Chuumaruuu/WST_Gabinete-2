@@ -1,0 +1,20 @@
+CRITICAL - 2024-10-15 13:18:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "components/top_layer.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('components/top_layer.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('components/top_layer', null, true)
+ 3 APPPATH\Views\layout\main_layout.php(1): CodeIgniter\View\View->include('components/top_layer')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\WST_Gabinete-2\\app\\Views\\layout\\main_layout.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('layout/main_layout', null, true)
+ 7 APPPATH\Views\landing.php(1): CodeIgniter\View\View->include('layout/main_layout')
+ 8 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\WST_Gabinete-2\\app\\Views\\landing.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('landing', [], true)
+11 APPPATH\Controllers\Home.php(20): view('landing')
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->landing()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
